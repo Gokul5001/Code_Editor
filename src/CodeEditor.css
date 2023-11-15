@@ -1,0 +1,46 @@
+/* CodeEditor.css */
+.code-editor-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+  }
+  
+  .editor-section {
+    width: 50%;
+    padding: 16px;
+    height:100%;
+  }
+  
+  .preview-section {
+    width: 50%;
+    padding: 16px;
+    justify-content: flex-start;
+  }
+  
+  .monaco-editor {
+    height: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+  }
+  
+  .run-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .run-button:hover {
+    background-color: #0056b3;
+  }
+  
+  iframe {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+  }
+  
